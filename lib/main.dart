@@ -12,7 +12,7 @@ class NoteifyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(brightness: Brightness.light),
+      theme: ThemeData(brightness: Brightness.light, fontFamily: 'Poppins'),
       debugShowCheckedModeBanner: false,
       home: NotesView(),
     );
