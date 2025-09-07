@@ -11,7 +11,7 @@ class NoteItem extends StatelessWidget {
         padding: EdgeInsets.all(4),
         width: double.infinity,
         decoration: BoxDecoration(
-          color: Colors.blue,
+          color: Colors.green,
           borderRadius: BorderRadius.circular(16),
         ),
         child: Column(
