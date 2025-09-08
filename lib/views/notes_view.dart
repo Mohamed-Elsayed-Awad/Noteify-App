@@ -11,6 +11,7 @@ class NotesView extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           showModalBottomSheet(
+              isScrollControlled: true,
               sheetAnimationStyle: AnimationStyle(
                 curve: Curves.easeInCubic,
               ),
@@ -27,4 +28,3 @@ class NotesView extends StatelessWidget {
     );
   }
 }
-
