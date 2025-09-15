@@ -14,12 +14,14 @@ class NotesViewBody extends StatelessWidget {
           SizedBox(
             height: 30,
           ),
-          CustomAppBar(),
+          CustomAppBar(
+            title: 'Noteify',
+            icon: Icons.search,
+          ),
           SizedBox(
             height: 16,
           ),
           Expanded(child: NotesListView()),
-          
         ],
       ),
     );
