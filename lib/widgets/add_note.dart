@@ -12,8 +12,8 @@ class AddNoteBottomSheet extends StatelessWidget {
         padding: EdgeInsets.only(
             left: 16,
             right: 16,
-            top: 28,
-            bottom: MediaQuery.of(context).viewInsets.bottom + 24),
+            // top: 28,
+            bottom: MediaQuery.of(context).viewInsets.bottom),
         child: Column(
           children: [
             SizedBox(
