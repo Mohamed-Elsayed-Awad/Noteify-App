@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:noteify/widgets/custom_text_field.dart';
 
 class AddNoteBottomSheet extends StatelessWidget {
   const AddNoteBottomSheet({
@@ -19,45 +20,16 @@ class AddNoteBottomSheet extends StatelessWidget {
             SizedBox(
               height: 28,
             ),
-            TextField(
-              cursorColor: Colors.green,
-              decoration: InputDecoration(
-                hintText: 'Title',
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(16),
-                  borderSide: BorderSide(color: Colors.green),
-                ),
-                enabledBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(16),
-                  borderSide: BorderSide(color: Colors.green),
-                ),
-                focusedBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(16),
-                  borderSide: BorderSide(color: Colors.green),
-                ),
-              ),
+            CustomTextField(
+              maxlines: 1,
+              title: 'Title',
             ),
             SizedBox(
               height: 16,
             ),
-            TextField(
-              maxLines: 9,
-              cursorColor: Colors.green,
-              decoration: InputDecoration(
-                hintText: 'Content',
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(16),
-                  borderSide: BorderSide(color: Colors.green),
-                ),
-                enabledBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(16),
-                  borderSide: BorderSide(color: Colors.green),
-                ),
-                focusedBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(16),
-                  borderSide: BorderSide(color: Colors.green),
-                ),
-              ),
+            CustomTextField(
+              maxlines: 9,
+              title: 'Content',
             ),
             SizedBox(
               height: 24,
@@ -85,3 +57,4 @@ class AddNoteBottomSheet extends StatelessWidget {
     );
   }
 }
+
