@@ -1,13 +1,13 @@
-import 'package:flutter/material.dart';
-import 'package:noteify/widgets/edit_note_view_body.dart';
+// import 'package:flutter/material.dart';
+// import 'package:noteify/widgets/edit_note_view_body.dart';
 
-class EditViewNote extends StatelessWidget {
-  const EditViewNote({super.key});
+// class EditViewNote extends StatelessWidget {
+//   const EditViewNote({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: EditNoteViewBody(),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: EditNoteViewBody(),
+//     );
+//   }
+// }
